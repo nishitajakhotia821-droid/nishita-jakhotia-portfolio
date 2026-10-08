@@ -98,67 +98,123 @@ filters.forEach((filter) => filter.addEventListener('click', () => {
 
 const projectData = {
   curology: {
-    title: 'CUROLOGY', category: 'WEB DESIGN / UI & UX / BEAUTY BRAND',
+    title: 'CUROLOGY',
+    category: 'WEB DESIGN / UI & UX / BEAUTY BRAND',
+    business: 'Skincare Brand',
+    objective: 'Create a premium, conversion-focused skincare website with strong product storytelling and clear action points.',
+    audience: 'Modern customers looking for high-quality skincare, product clarity and a premium wellness-first experience.',
     website: 'https://nishitajakhotia821-droid.github.io/curology/',
     overview: 'A clean, conversion-focused skincare website with polished product storytelling and a premium wellness brand mood.',
-    direction: 'Minimal layouts, soft skincare imagery and a confident editorial rhythm that keeps the experience premium and easy to browse.',
-    tools: 'HTML, CSS, JavaScript, responsive design',
+    direction: 'Minimal layouts, soft skincare imagery and a confident editorial rhythm keep the experience premium and easy to browse.',
+    tools: 'HTML, CSS, JavaScript, Responsive UI, Front-end development',
+    features: 'Product showcase, benefits section, product categories, CTA blocks, product enquiry flow.',
+    role: 'Homepage design, UI/UX planning, responsive front-end build and product story presentation.',
     sections: 'Hero, product highlights, brand story, benefits, categories, ingredients, reviews and contact.',
-    images: ['https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1600&q=85', 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1400&q=85']
+    images: ['https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1600&q=85', 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1400&q=85'],
+    desktopPreview: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=85',
+    mobilePreview: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=700&q=85'
   },
   aurelia: {
-    title: 'AURELIA CAFÉ', category: 'WEB DESIGN / UI & UX / HOSPITALITY',
+    title: 'AURELIA CAFÉ',
+    category: 'WEB DESIGN / UI & UX / HOSPITALITY',
+    business: 'Café & Coffee Brand',
+    objective: 'Build a warm café website that communicates atmosphere, menu quality and a memorable in-store experience.',
+    audience: 'Coffee lovers, neighborhood customers and guests looking for a welcoming place to dine or unwind.',
     website: 'https://nishitajakhotia821-droid.github.io/Aurelia-Cafe/',
     overview: 'A warm hospitality website built around coffee culture, inviting interiors and a memorable café experience.',
     direction: 'Earthy espresso tones, creamy surfaces, expressive serif type and rich food photography create a welcoming, editorial feel.',
     tools: 'HTML, CSS, JavaScript, visual design',
+    features: 'Menu showcase, order CTA, custom enquiry, location, contact and café story sections.',
+    role: 'Brand-led layout design, front-end implementation and responsive experience refinement.',
     sections: 'Hero, story, specials, menu, coffee culture, gallery, reservations and contact.',
-    images: ['https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=85']
+    images: ['https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=85'],
+    desktopPreview: 'https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85',
+    mobilePreview: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=85'
   },
   kazuko: {
-    title: 'KAZUKO', category: 'WEB DESIGN / UI & UX / BRAND EXPERIENCE',
+    title: 'KAZUKO',
+    category: 'WEB DESIGN / UI & UX / BRAND EXPERIENCE',
+    business: 'Restaurant Brand',
+    objective: 'Design a premium restaurant experience that makes dining feel elevated, memorable and easy to explore.',
+    audience: 'Guests looking for a premium dining experience, ambiance and convenient reservation information.',
     website: 'https://nishitajakhotia821-droid.github.io/kazuko/',
     overview: 'A refined restaurant and brand experience designed to tell a premium story through polished visuals and intuitive browsing.',
-    direction: 'Editorial layouts, warm neutrals and focused details that elevate the restaurant atmosphere without cluttering the experience.',
+    direction: 'Editorial layouts, warm neutrals and focused details elevate the restaurant atmosphere without cluttering the experience.',
     tools: 'HTML, CSS, JavaScript, responsive design',
+    features: 'Menu design, reservation CTA, opening hours, location details, hospitality contact and gallery.',
+    role: 'Visual direction, responsive UI, front-end build and customer journey refinement.',
     sections: 'Landing page, menu, ambiance, dining story, gallery, reservation callouts and contact.',
-    images: ['https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1400&q=85']
+    images: ['https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1400&q=85'],
+    desktopPreview: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85',
+    mobilePreview: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=700&q=85'
   },
   eleve: {
-    title: 'ÉLEVÉ BAKERY', category: 'WEB DESIGN / UI & UX / FOOD',
+    title: 'ÉLEVÉ BAKERY',
+    category: 'WEB DESIGN / UI & UX / FOOD',
+    business: 'Bakery & Pâtisserie',
+    objective: 'Present artisanal bakery products with a warm, premium and easy-to-order experience across desktop and mobile.',
+    audience: 'Families, gifting customers and pastry lovers looking for quality baked goods and custom orders.',
     website: 'https://nishitajakhotia821-droid.github.io/eleve-bakery/',
     overview: 'A luxury bakery experience built around handcrafted pastries, signature menus and a warm artisanal story.',
     direction: 'Soft cream, butter yellow, deep cocoa and tactile food photography create a comforting but elevated feel.',
     tools: 'HTML, CSS, JavaScript, visual design',
+    features: 'Product menu, custom order enquiry, gallery, location, contact CTA and bakery details.',
+    role: 'Brand and product presentation, layout design, UI polish and responsive front-end development.',
     sections: 'Hero, story, menu, specialty cakes, gallery, custom orders and contact.',
-    images: ['https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1400&q=85']
+    images: ['https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1400&q=85'],
+    desktopPreview: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=85',
+    mobilePreview: 'https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=700&q=85'
   },
   ironpeak: {
-    title: 'IRON PEAK FITNESS', category: 'WEB DESIGN / UI & UX / FRONT-END DEVELOPMENT',
+    title: 'IRON PEAK FITNESS',
+    category: 'WEB DESIGN / UI & UX / FRONT-END DEVELOPMENT',
+    business: 'Fitness Studio',
+    objective: 'Create an energetic, professional fitness website that clearly communicates memberships, training and class experience.',
+    audience: 'Fitness-focused customers looking for a modern gym experience, trainers and membership clarity.',
     website: 'https://nishitajakhotia821-droid.github.io/gym-website/',
     overview: 'A complete fitness website with a dark athletic visual system, clear program structure and a performance-first browsing flow.',
     direction: 'Dark charcoal surfaces, condensed display typography and sharp lime accents balance energy with clarity.',
     tools: 'HTML, CSS, JavaScript, visual design',
+    features: 'Membership plans, trainers, schedule, enquiry CTA, transformation gallery and fitness programs.',
+    role: 'Visual system, responsive UX design, front-end build and conversion-focused page structure.',
     sections: 'Hero, programs, coaches, membership, transformations, gallery, testimonials and contact.',
-    images: ['https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=85', 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1400&q=85']
+    images: ['https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=85', 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1400&q=85'],
+    desktopPreview: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85',
+    mobilePreview: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=85'
   },
   shweta: {
-    title: "SHWETA'S MAKEOVER", category: 'WEB DESIGN / UI & UX / BEAUTY',
+    title: "SHWETA'S MAKEOVER",
+    category: 'WEB DESIGN / UI & UX / BEAUTY',
+    business: 'Beauty & Salon Studio',
+    objective: 'Give a salon and beauty business a refined digital presence with service clarity, pricing visibility and appointment intent.',
+    audience: 'Women looking for makeup, bridal, hair and beauty services with clear service information and direct contact options.',
     website: 'https://nishitajakhotia821-droid.github.io/Shweta-s-Makeover/',
     overview: 'A multi-page beauty and salon website that brings services, bridal work, the academy and booking details together in one experience.',
     direction: 'Beauty-focused imagery and clear service navigation keep the content polished, layered and easy to explore.',
     tools: 'HTML, CSS, JavaScript',
+    features: 'Services, pricing, gallery, appointment CTA, bridal offerings, contact and WhatsApp action.',
+    role: 'Multi-page layout design, responsive UI organization and polished front-end structure.',
     sections: 'Home, about, services, hair, makeup, bridal, academy, offers, portfolio and contact.',
-    images: ['https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=85', 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=85', 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=85']
+    images: ['https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=85', 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=85', 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=85'],
+    desktopPreview: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=85',
+    mobilePreview: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=85'
   },
   lumiere: {
-    title: 'LUMIÈRE SALON', category: 'WEB DESIGN / UI & UX / BEAUTY',
+    title: 'LUMIÈRE SALON',
+    category: 'WEB DESIGN / UI & UX / BEAUTY',
+    business: 'Salon & Beauty Studio',
+    objective: 'Design a premium salon website that feels polished, calming and conversion-friendly while showcasing services clearly.',
+    audience: 'Clients seeking beauty, bridal and salon treatments with a refined and trustworthy brand experience.',
     website: 'https://nishitajakhotia821-droid.github.io/lumiere-salon/',
     overview: 'A polished salon experience that blends premium beauty styling, clear service discovery and an elegant online brand presence.',
     direction: 'Warm ivory tones, soft editorial details and carefully composed imagery create a refined salon mood.',
     tools: 'HTML, CSS, JavaScript, visual design',
+    features: 'Services, gallery, pricing, booking CTA, testimonials and salon brand sections.',
+    role: 'Brand storytelling, UI polish, mobile responsiveness and front-end implementation.',
     sections: 'Hero, services, hair, beauty, bridal, pricing, gallery, testimonials and booking.',
-    images: ['https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1400&q=85']
+    images: ['https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1400&q=85', 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1400&q=85'],
+    desktopPreview: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1200&q=85',
+    mobilePreview: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=700&q=85'
   }
 };
 
@@ -183,18 +239,27 @@ function openProject(key) {
   modal.querySelector('.modal-category').textContent = project.category;
   modal.querySelector('#modal-title').textContent = project.title;
   modal.querySelector('.modal-overview').textContent = project.overview;
+  modal.querySelector('.modal-business').textContent = project.business;
+  modal.querySelector('.modal-objective').textContent = project.objective;
+  modal.querySelector('.modal-audience').textContent = project.audience;
   modal.querySelector('.modal-direction').textContent = project.direction;
   modal.querySelector('.modal-tools').textContent = project.tools;
+  modal.querySelector('.modal-features').textContent = project.features;
+  modal.querySelector('.modal-role').textContent = project.role;
   modal.querySelector('.modal-sections').textContent = project.sections;
   modal.querySelector('.modal-site-link').href = project.website;
   modal.querySelector('.modal-site-link').setAttribute('aria-label', `Open the ${project.title} website`);
+  modal.querySelector('.modal-desktop-preview').src = project.desktopPreview || project.images[0];
+  modal.querySelector('.modal-desktop-preview').alt = `${project.title} desktop preview`;
+  modal.querySelector('.modal-mobile-preview').src = project.mobilePreview || project.images[0];
+  modal.querySelector('.modal-mobile-preview').alt = `${project.title} mobile preview`;
   modalGallery.replaceChildren(...project.images.map((image, index) => {
     const button = document.createElement('button');
     button.type = 'button';
     button.setAttribute('aria-label', `Show project image ${index + 1}`);
     const thumbnail = document.createElement('img');
     thumbnail.src = image;
-    thumbnail.alt = '';
+    thumbnail.alt = `${project.title} gallery preview ${index + 1}`;
     thumbnail.loading = 'lazy';
     button.append(thumbnail);
     button.addEventListener('click', () => showProjectImage(index));
@@ -208,6 +273,7 @@ function openProject(key) {
 
 document.querySelectorAll('[data-project]').forEach((button) => button.addEventListener('click', () => openProject(button.dataset.project)));
 modal.querySelector('.modal-close').addEventListener('click', () => modal.close());
+modal.querySelector('.modal-close-inline').addEventListener('click', () => modal.close());
 modal.querySelector('.modal-prev').addEventListener('click', () => showProjectImage(activeImage - 1));
 modal.querySelector('.modal-next').addEventListener('click', () => showProjectImage(activeImage + 1));
 modal.addEventListener('click', (event) => {
